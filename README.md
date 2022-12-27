@@ -57,3 +57,8 @@ Examples
 > docker run -t -i converter --from yards --to feet --precision 3
 
 ![example2.png](resources%2Fexample2.png)
+
+# Testing
+To run tests manually clone repository, install dependencies, then go to the cloned project directory and do:
+
+> pytest tests/test.py -v
